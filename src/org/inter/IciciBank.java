@@ -24,6 +24,10 @@ public class IciciBank implements RBIBank {
 		b.deposit();
 		b.fixed();
 		b.saving();
+		IciciBank b1=new IciciBank();
+		b1.deposit();
+		b1.fixed();
+		b1.saving();
 	}
 
 }
